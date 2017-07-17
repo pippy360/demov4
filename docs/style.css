@@ -281,18 +281,6 @@ h2 {
     color: white;
 }
 
-.fishImage {
-    width: 485px;
-    height: 222px;
-    background-image: url('images/fish_1.jpg');
-    background-size: 485px 222px;
-    background-repeat: no-repeat;
-}
-
-.fishImage:hover {
-    background-image: url('images/fish_2.jpg');
-}
-
 .canvasBottom {
     position: absolute;
 }
@@ -352,7 +340,6 @@ h2 {
 
 body:after {
     display: none;
-    content: url('images/fish_1.jpg') url('images/fish_2.jpg');
 }
 
 .dropdown-menu li {
